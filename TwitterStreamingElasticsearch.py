@@ -51,11 +51,11 @@ ESVSC_INDEX_CONFIGURATION = {
 class TwitterClient(object):
     def __init__(self):
         # keys and tokens from the Twitter Dev Console
-        consumer_key = 'm0NePHCLWwKYPSKhVUGNXIJMn'
-        consumer_secret = 'lujGJJqHCAuWWKOwMEMLL9eThKGvfJA1nYlDcVMyyFCZi3SLUQ'
+        consumer_key = 'your_consumer_key'
+        consumer_secret = 'your_consumer_secret'
 
-        access_token = '603807857-IcPZUB7Al6xvFWNKgbf5ENRQZRt2uCqYu3w3u39j'
-        access_token_secret = '3W3JKCJ1ZbHL2V1gcs50Bvv6mRIjX1WIf6nnggFWi0NAM'
+        access_token = 'your_access_token'
+        access_token_secret = 'your_access_token_secret'
 
         # attempt authentication
         try:
